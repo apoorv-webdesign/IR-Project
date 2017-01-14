@@ -1,0 +1,92 @@
+-------------------------------------------
+Prerequisites for executing this assignment:
+--------------------------------------------
+-> Python 2.7 should be installed in the system
+-> Pandas should be installed in the system
+-> Lucene should be installed in the system
+
+------
+setup
+------
+-> use the prepare_corpus.py to create a tokenized corpus 
+   ACM-corpus should be in the same position as the prepare_corpus.py
+   A new folder named corpus having tokens will be created
+-> use create_index.py to create unigram index out of the tokenized corpus
+   The create_index.py should be in the same location as 'corpus having tokens' folder
+-> use create_doc_frequency.py to create term and overall term frequency in the corpus table out of the tokenized corpus
+   The create_doc_frequency.py should be in the same location as 'corpus having tokens' folder   
+   
+-------------------------------------
+Instructions for executing the Tasks
+--------------------------------------
+ 
+Task-1:
+------
+TF-IDF:
+-> run the project_tfidf.py file
+-> Generate the result file in the last step
+
+COSINE SIMILARITY
+-> run the project_doc_mag.py to find document magnitude
+-> run the project_cosine_sim.py file
+-> Generate the result file in the last step
+
+
+BM25:
+-> run the BM25.py file
+-> Generate the result file in the last step
+
+
+LUCENE:
+
+->  open command prompt
+->  go to the directory where the LuceneDemo.java is stored
+->  then type: javac LuceneDemo.java
+->	then type: java LuceneDemo.java 
+->  please follow the instructions as prompted about index location, corpus location, query location and result location
+->  this will execute the code and you can see the results at the location you ebtered when prompted in a file named lucene_result.txt
+
+
+Task-2
+------
+-> use Task-2_query_expansion.py to create the results of the expanded query
+-> list of all the queries in a file named queries_list.txt file should be present in the same folder
+-> frequency of the term in a document should be stored in a file named term_frequency.txt
+-> unigram index of the corpus should be stored in a file named unigram_index.txt
+-> open command prompt
+-> go to the directory where the Task-2_query_expansion.py is stored
+-> then type: python Task-2_query_expansion.py
+-> a file named expanded_query.txt will be created
+-> pass this file as query list to BM25 and execute the BM25
+
+Task-3
+------
+
+-> run the BM25_without_stopwords.py for Stopping
+-> run the BM25_stemming.py for Stemming
+-> Generate the result files in the end
+
+Implementation- Phase 2: Evaluation
+-----------------------------------
+
+->  open command prompt
+->  go to the directory where the LuceneStopping.java is stored
+->  then type: javac LuceneStopping.java
+->	then type: java LuceneStopping.java 
+->  please follow the instructions as prompted about index location, corpus location, query location, common_words  and result location
+->  this will execute the code and you can see the results at the location you entered when prompted in a file named lucene_result.txt
+
+
+-> run the project_evaluation.py file for evaluation
+-> in input change the file to evaluate different baselines
+-> generate the evaluation file
+-> MAP and MRR is printed
+-> P@K file is created
+
+
+Bonus Task: Snippet Generation
+--------------------------------
+
+-> Run the snippet.py file
+-> change the queries if needed. 
+-> the snippet file is generated in the end as snippet.txt

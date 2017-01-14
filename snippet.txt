@@ -1,0 +1,58 @@
+distributed processes a
+processes a concurrent programming concept
+distributed processes a concurrent
+these processes communicate and synchronize
+communicate and synchronize by means
+that they include procedures coroutines
+
+of parallel programs and informal
+communicating parallel processes various kinds
+proofs of correctness have been
+
+implementation in distributed systems the
+synchronization of concurrent processes requires
+of concurrent processes requires controlling
+to simplify correctness arguments and
+
+of parallel programs an axiomatic
+program termination techniques for verifying
+for partial correctness but they
+
+for a distributed computer network
+network to communicate each node
+a correctness proof of
+
+and some algorithms are presented
+concurrent reading and
+messages between processes these solutions
+use these include a solution
+and two techniques for transmitting
+
+of communicating processes formalization of
+a system communicate correctly this
+the same message frame in
+
+
+shared by concurrent processes with
+meaning of programs and permits
+by concurrent processes with operations
+
+cooperating sequential processes the processes
+the processes synchronize by means
+proving coroutines correctness program maintenance
+
+configurations of processes this note
+of selective message extinction in
+
+of parallel programs two formal
+pointers or processes executing the
+that certain correctness conditions can
+
+adaptive routing algorithms two analytic
+the optimal message routing and
+
+or six concurrent users on
+
+programming for distributed computing programming
+of module message and transaction
+of growing interest this paper
